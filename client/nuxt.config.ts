@@ -3,6 +3,12 @@ export default defineNuxtConfig({
   compatibilityDate: '2025-07-15',
   devtools: { enabled: true },
   srcDir: 'app/',
+  modules: ['@nuxtjs/color-mode'],
+  colorMode: {
+    preference: 'light',
+    fallback: 'light',
+    classSuffix: ''
+  },
   css: ['~/assets/styles/main.scss'],
   runtimeConfig: {
     public: {

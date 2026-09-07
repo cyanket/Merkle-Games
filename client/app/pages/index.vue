@@ -36,6 +36,7 @@ onMounted(async () => {
           Fifteen games, selected at random and ranked for your next deep dive.
         </p>
       </div>
+      <ColorModeToggle />
     </header>
 
     <section class="catalog-toolbar" aria-labelledby="catalog-title">

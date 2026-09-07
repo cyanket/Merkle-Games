@@ -6,11 +6,15 @@ A Nuxt 4 and TypeScript client for the Merkle Games REST API. It presents 15 ran
 
 ### Home page
 
-![Home page](docs/screenshots/desktop-main.png)
+| Light Mode | Dark Mode |
+|------------|-----------|
+| <img src="./docs/screenshots/main-light.png" width="400"> | <img src="./docs/screenshots/main-dark.png" width="400"> |
 
-### Dashboard
+### Details Page
 
-![Dashboard](docs/screenshots/desktop-details-page.png)
+| Light Mode | Dark Mode |
+|------------|-----------|
+| <img src="./docs/screenshots/details-light.png" width="400"> | <img src="./docs/screenshots/details-dark.png" width="400"> |
 
 
 ## Requirements
@@ -116,3 +120,4 @@ Check out the [deployment documentation](https://nuxt.com/docs/getting-started/d
 - Game detail responses supply the genre, developer, images, and reviews needed by the assignment. The stats endpoint supplies the average rating and rating count.
 - Sorting is implemented client-side using average rating and release date for the selected 15 games.
 - The interface uses SCSS variables and responsive CSS without Tailwind or a component library.
+- Light and dark themes are provided by `@nuxtjs/color-mode` and can be switched from either page.

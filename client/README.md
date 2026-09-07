@@ -105,3 +105,4 @@ Check out the [deployment documentation](https://nuxt.com/docs/getting-started/d
 - Game detail responses supply the genre, developer, images, and reviews needed by the assignment. The stats endpoint supplies the average rating and rating count.
 - Sorting is implemented client-side using average rating and release date for the selected 15 games.
 - The interface uses SCSS variables and responsive CSS without Tailwind or a component library.
+- Light and dark themes are provided by `@nuxtjs/color-mode` and can be switched from either page.

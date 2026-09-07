@@ -27,7 +27,10 @@ onMounted(async () => {
 
 <template>
   <main class="container detail-page">
-    <NuxtLink class="back-link" to="/">&larr; Back to games</NuxtLink>
+    <div class="detail-topbar">
+      <NuxtLink class="back-link" to="/">&larr; Back to games</NuxtLink>
+      <ColorModeToggle />
+    </div>
 
     <p v-if="status === 'pending'" class="status-message" role="status">Loading game...</p>
     <p v-else-if="error || !game" class="status-message status-message--error" role="alert">
