@@ -2,6 +2,17 @@
 
 A Nuxt 4 and TypeScript client for the Merkle Games REST API. It presents 15 randomly selected games released from 2015 through 2017, with average-rating sorting by default and release-date sorting as an alternative.
 
+## Screenshots
+
+### Home page
+
+![Home page](docs/screenshots/desktop-main.png)
+
+### Dashboard
+
+![Dashboard](docs/screenshots/desktop-details-page.png)
+
+
 ## Requirements
 
 - Node.js 24.3 or newer
