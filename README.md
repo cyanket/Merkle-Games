@@ -109,3 +109,10 @@ bun run preview
 ```
 
 Check out the [deployment documentation](https://nuxt.com/docs/getting-started/deployment) for more information.
+
+## Implementation Notes
+
+- The client calls only REST endpoints. It first requests game IDs from `/games/by-date-range`, randomly selects 15 IDs, then requests each game and its stats.
+- Game detail responses supply the genre, developer, images, and reviews needed by the assignment. The stats endpoint supplies the average rating and rating count.
+- Sorting is implemented client-side using average rating and release date for the selected 15 games.
+- The interface uses SCSS variables and responsive CSS without Tailwind or a component library.
